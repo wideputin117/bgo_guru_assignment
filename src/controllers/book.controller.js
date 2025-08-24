@@ -79,8 +79,6 @@ export const delete_book = asyncHandler(async (req, res, next) => {
     });
 });
 
-
-
 export const update_book = asyncHandler(async (req, res, next) => {
     const user = req?.user;
     const userId = user?._id;
